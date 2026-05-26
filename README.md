@@ -1,8 +1,8 @@
 # 💼 Portfólio Pessoal - React
 
-Este é meu portfólio desenvolvido com **React + Vite**, onde apresento meus principais projetos, habilidades e formas de contato.
+Este projeto é um portfólio pessoal desenvolvido com **React + Vite**, com o objetivo de apresentar meus principais projetos, habilidades e informações de contato.
 
-O objetivo deste projeto é demonstrar minha evolução como desenvolvedor e aplicar conhecimentos adquiridos no curso.
+O foco deste trabalho é demonstrar minha evolução como desenvolvedor ao longo do curso da EBAC, aplicando conceitos de componentização, organização de código e boas práticas em React.
 
 ---
 
@@ -20,14 +20,18 @@ https://portfolio-n87800u2s-kayky-de-castro-manso-ribeiro-s-projects.vercel.app
 - Vite
 - HTML5
 - CSS3
+- Git e GitHub
 
 ---
 
 ## 📁 Estrutura do projeto
+
+
 src/
 ├── components/
 │ ├── Header/
 │ ├── About/
+│ ├── Home/
 │ ├── Projects/
 │ ├── Skills/
 │ └── Contact/
@@ -41,24 +45,25 @@ src/
 
 - Página inicial com apresentação pessoal
 - Seção “Sobre mim”
-- Lista de projetos desenvolvidos
+- Lista de projetos desenvolvidos durante o curso
 - Lista de habilidades técnicas
-- Seção de contato com links reais
+- Seção de contato com links reais (GitHub, Email e WhatsApp)
 - Navegação por âncoras (scroll suave)
 - Layout responsivo básico
+- Interface com tema escuro consistente
 
 ---
 
 ## 📂 Projetos incluídos
 
 ### 🧾 Diário de Bordo PWA
-Aplicação para registro de atividades com suporte offline.
+Aplicação web com suporte offline para registro de atividades.
 
 ### 🔐 API de Tarefas
-API com autenticação e CRUD de tarefas.
+API desenvolvida com autenticação e operações CRUD.
 
 ### 💼 Portfólio Pessoal
-Site desenvolvido para exibir projetos e habilidades.
+Site criado para exibição de projetos e habilidades.
 
 ---
 
@@ -73,22 +78,17 @@ Site desenvolvido para exibir projetos e habilidades.
 ## 🚀 Como rodar o projeto localmente
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/SEU_USUARIO/portfolio.git
+git clone https://github.com/KaykyRibeir/portfolio.git
 
-# Entrar na pasta
 cd portfolio
 
-# Instalar dependências
 npm install
 
-# Rodar o projeto
 npm run dev
-
 📌 Observações
 
-Este projeto foi desenvolvido com foco em aprendizado e prática de React, componentização e organização de código.
+Este projeto foi desenvolvido com foco em aprendizado prático de React, componentização, organização de código e deploy de aplicações web.
 
 👨‍💻 Autor
 
-Desenvolvido por Kayky Ribeiro
+Desenvolvido por Kayky de Castro Manso Ribeiro
