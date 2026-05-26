@@ -84,3 +84,11 @@ npm install
 
 # Rodar o projeto
 npm run dev
+
+📌 Observações
+
+Este projeto foi desenvolvido com foco em aprendizado e prática de React, componentização e organização de código.
+
+👨‍💻 Autor
+
+Desenvolvido por Kayky Ribeiro
