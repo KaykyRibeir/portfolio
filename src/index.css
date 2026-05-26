@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+/* estrutura geral */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* seções centralizadas */
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* títulos mais fortes */
+h1, h2, h3 {
+  color: #f8fafc;
+  margin-bottom: 10px;
+}
+
+/* parágrafos mais suaves */
+p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+/* textos menores */
+small {
+  color: #94a3b8;
+}
+
+/* links mais bonitos */
+a {
+  text-decoration: none;
+  color: #60a5fa;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #93c5fd;
+}

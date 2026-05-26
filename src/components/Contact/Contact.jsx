@@ -5,10 +5,14 @@ function Contact() {
     <section id="contact">
       <h2>Contato</h2>
 
-      <p>Você pode me encontrar aqui:</p>
+      <p>Entre em contato comigo pelos canais abaixo:</p>
 
       <div className="contact-links">
-        <a href="https://github.com/KaykyRibeir" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/KaykyRibeir"
+          target="_blank"
+          rel="noreferrer"
+        >
           GitHub
         </a>
 
