@@ -56,14 +56,29 @@ src/
 
 ## 📂 Projetos incluídos
 
-### 🧾 Diário de Bordo PWA
-Aplicação web com suporte offline para registro de atividades.
+### 🧩 Micro-frontends
+Arquitetura de frontend modular baseada em micro-frontends, com foco em escalabilidade e separação de aplicações.
 
-### 🔐 API de Tarefas
-API desenvolvida com autenticação e operações CRUD.
+### 🧾 Diário de Bordo PWA
+Aplicação web progressiva (PWA) para registro de atividades com suporte offline e armazenamento local no navegador.
+
+### 🔄 Todo Recoil EBAC
+Sistema de tarefas com gerenciamento de estado global utilizando Recoil e boas práticas em React.
+
+### ⚙️ CI/CD com Next.js
+Projeto focado em automação de deploy e integração contínua utilizando Next.js e GitHub Actions.
+
+### 📋 Lista de Tarefas EBAC
+Aplicação de lista de tarefas desenvolvida para prática de React, componentização e manipulação de estado.
 
 ### 💼 Portfólio Pessoal
-Site criado para exibição de projetos e habilidades.
+Site desenvolvido para apresentação de projetos e habilidades utilizando React e Vite.
+
+### 📰 Blog Next.js EBAC
+Blog com foco em SEO, performance e renderização otimizada utilizando Next.js.
+
+### ✈️ Portal de Viagens EBAC
+Portal responsivo de viagens com foco em experiência do usuário e organização de conteúdo.
 
 ---
 
