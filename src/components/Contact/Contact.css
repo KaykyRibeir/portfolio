@@ -1,0 +1,22 @@
+#contact {
+  padding: 40px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.contact-links a:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
