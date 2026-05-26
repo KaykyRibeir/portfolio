@@ -9,7 +9,7 @@ O foco deste trabalho é demonstrar minha evolução como desenvolvedor ao longo
 ## 🌐 Deploy
 
 🔗 Acesse o projeto online:  
-https://portfolio-n87800u2s-kayky-de-castro-manso-ribeiro-s-projects.vercel.app
+https://portfolio-nine-kappa-f65ip9gk21.vercel.app
 
 ---
 
