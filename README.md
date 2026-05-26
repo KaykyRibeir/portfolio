@@ -1,16 +1,86 @@
-# React + Vite
+# 💼 Portfólio Pessoal - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio desenvolvido com **React + Vite**, onde apresento meus principais projetos, habilidades e formas de contato.
 
-Currently, two official plugins are available:
+O objetivo deste projeto é demonstrar minha evolução como desenvolvedor e aplicar conhecimentos adquiridos no curso.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Deploy
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Acesse o projeto online:  
+https://portfolio-n87800u2s-kayky-de-castro-manso-ribeiro-s-projects.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tecnologias utilizadas
+
+- React
+- JavaScript (ES6+)
+- Vite
+- HTML5
+- CSS3
+
+---
+
+## 📁 Estrutura do projeto
+src/
+├── components/
+│ ├── Header/
+│ ├── About/
+│ ├── Projects/
+│ ├── Skills/
+│ └── Contact/
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## 📌 Funcionalidades
+
+- Página inicial com apresentação pessoal
+- Seção “Sobre mim”
+- Lista de projetos desenvolvidos
+- Lista de habilidades técnicas
+- Seção de contato com links reais
+- Navegação por âncoras (scroll suave)
+- Layout responsivo básico
+
+---
+
+## 📂 Projetos incluídos
+
+### 🧾 Diário de Bordo PWA
+Aplicação para registro de atividades com suporte offline.
+
+### 🔐 API de Tarefas
+API com autenticação e CRUD de tarefas.
+
+### 💼 Portfólio Pessoal
+Site desenvolvido para exibir projetos e habilidades.
+
+---
+
+## 📬 Contato
+
+- GitHub: https://github.com/KaykyRibeir  
+- Email: kaykycmr410@gmail.com  
+- WhatsApp: https://wa.me/553599579595  
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+```bash
+# Clonar o repositório
+git clone https://github.com/SEU_USUARIO/portfolio.git
+
+# Entrar na pasta
+cd portfolio
+
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
