@@ -1,11 +1,12 @@
 .homeSection {
-  padding: 80px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
 .title {
-  font-size: 42px;
-  margin-bottom: 15px;
+  font-size: 40px;
+  margin-bottom: 12px;
+  line-height: 1.2;
 }
 
 .subtitle {
@@ -27,16 +28,16 @@
 }
 
 /* ========================= */
-/* 📱 RESPONSIVIDADE REAL    */
+/* 📱 MOBILE OPTIMIZATION    */
 /* ========================= */
 
 @media (max-width: 768px) {
   .homeSection {
-    padding: 60px 15px;
+    padding: 50px 15px;
   }
 
   .title {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .subtitle {
@@ -50,11 +51,11 @@
 
 @media (max-width: 480px) {
   .homeSection {
-    padding: 50px 12px;
+    padding: 40px 12px;
   }
 
   .title {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .subtitle {
