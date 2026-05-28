@@ -1,4 +1,4 @@
-import "./Skills.css";
+import styles from "./Skills.module.css";
 
 const skills = [
   "React",
@@ -14,16 +14,16 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className={styles.skillsSection}>
       <h2>Habilidades</h2>
 
       <p>
         Tecnologias e competências desenvolvidas durante o curso na EBAC.
       </p>
 
-      <div className="skills-container">
+      <div className={styles.skillsContainer}>
         {skills.map((skill, index) => (
-          <span key={index} className="skill-badge">
+          <span key={index} className={styles.skillBadge}>
             {skill}
           </span>
         ))}

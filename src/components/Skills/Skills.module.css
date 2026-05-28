@@ -1,0 +1,50 @@
+.skillsSection {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.skillBadge {
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.2s;
+}
+
+.skillBadge:hover {
+  border-color: #60a5fa;
+  color: #60a5fa;
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/* 📱 RESPONSIVIDADE         */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 30px 15px;
+  }
+
+  .skillBadge {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillBadge {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

@@ -5,12 +5,14 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 
+import styles from "./App.module.css";
+
 function App() {
   return (
-    <div className="app">
+    <div className={styles.app}>
       <Header />
 
-      <main>
+      <main className={styles.main}>
         <Home />
         <About />
         <Projects />

@@ -1,0 +1,25 @@
+.contactSection {
+  padding: 40px;
+  text-align: center;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contactLinks a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #000;
+  transition: 0.2s;
+}
+
+.contactLinks a:hover {
+  background-color: #f0f0f0;
+}

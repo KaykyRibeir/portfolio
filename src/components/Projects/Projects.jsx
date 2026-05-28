@@ -1,4 +1,4 @@
-import "./Projects.css";
+import styles from "./Projects.module.css";
 
 const projects = [
   {
@@ -69,25 +69,29 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="projects-section">
+    <section id="projects" className={styles.projectsSection}>
       <h2>Projetos</h2>
 
-      <div className="projects-container">
+      <div className={styles.projectsContainer}>
         {projects.map((project, index) => (
-          <div key={index} className="project-card">
+          <div key={index} className={styles.projectCard}>
 
             <img
               src={project.image}
               alt={project.title}
-              className="project-image"
+              className={styles.projectImage}
             />
 
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <small>{project.tech}</small>
 
-            <div style={{ marginTop: "10px" }}>
-              <a href={project.github} target="_blank" rel="noreferrer">
+            <div className={styles.linkContainer}>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Ver no GitHub
               </a>
             </div>

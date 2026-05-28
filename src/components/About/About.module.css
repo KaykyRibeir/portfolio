@@ -1,0 +1,62 @@
+.about {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+}
+
+/* imagem otimizada pra performance */
+.photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+
+  /* melhora performance de render */
+  display: block;
+  will-change: transform;
+  contain: content;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+/* ========================= */
+/* 📱 MOBILE OPTIMIZATION    */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+
+    /* melhora performance no reflow */
+    gap: 20px;
+  }
+
+  .photo {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo {
+    width: 110px;
+    height: 110px;
+  }
+}

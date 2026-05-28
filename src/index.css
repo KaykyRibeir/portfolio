@@ -3,32 +3,35 @@ body {
   font-family: Arial, sans-serif;
   background: #0f172a;
   color: #cbd5e1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 /* estrutura geral */
 main {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px; /* reduzido (melhora mobile performance e scroll) */
 }
 
 /* seções centralizadas */
 section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 30px 15px; /* reduzido para mobile */
 }
 
-/* títulos mais fortes */
+/* títulos */
 h1, h2, h3 {
   color: #f8fafc;
   margin-bottom: 10px;
 }
 
-/* parágrafos mais suaves */
+/* textos */
 p {
   color: #cbd5e1;
   line-height: 1.6;
+  font-size: 16px;
 }
 
 /* textos menores */
@@ -36,13 +39,38 @@ small {
   color: #94a3b8;
 }
 
-/* links mais bonitos */
+/* links */
 a {
   text-decoration: none;
   color: #60a5fa;
-  transition: 0.2s;
+  transition: color 0.2s ease; /* mais leve que transition geral */
 }
 
 a:hover {
   color: #93c5fd;
+}
+
+/* ========================= */
+/* 📱 MOBILE PERFORMANCE FIX */
+/* ========================= */
+
+@media (max-width: 768px) {
+  main {
+    gap: 25px; /* reduz scroll pesado */
+  }
+
+  section {
+    padding: 20px 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* evita layout shift em telas pequenas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

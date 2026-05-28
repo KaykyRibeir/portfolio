@@ -1,18 +1,14 @@
-import "./Contact.css";
+import styles from "./Contact.module.css";
 
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className={styles.contactSection}>
       <h2>Contato</h2>
 
       <p>Entre em contato comigo pelos canais abaixo:</p>
 
-      <div className="contact-links">
-        <a
-          href="https://github.com/KaykyRibeir"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <div className={styles.contactLinks}>
+        <a href="https://github.com/KaykyRibeir" target="_blank" rel="noreferrer">
           GitHub
         </a>
 
@@ -20,11 +16,7 @@ function Contact() {
           Email
         </a>
 
-        <a
-          href="https://wa.me/553599579595"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://wa.me/553599579595" target="_blank" rel="noreferrer">
           WhatsApp
         </a>
       </div>
