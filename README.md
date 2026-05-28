@@ -1,109 +1,113 @@
-# 💼 Portfólio Pessoal - React
-
-Este projeto é um portfólio pessoal desenvolvido com **React + Vite**, com o objetivo de apresentar meus principais projetos, habilidades e informações de contato.
-
-O foco deste trabalho é demonstrar minha evolução como desenvolvedor ao longo do curso da EBAC, aplicando conceitos de componentização, organização de código e boas práticas em React.
+Aqui vai um **README pronto pra nota alta**, já estruturado como professor gosta (claro, organizado e profissional). É só copiar e colar no seu `README.md`:
 
 ---
 
-## 🌐 Deploy
+# 🚀 Portfólio - Kayky Ribeiro
 
-🔗 Acesse o projeto online:  
-https://portfolio-nine-kappa-f65ip9gk21.vercel.app
+Este é meu portfólio pessoal desenvolvido durante minha formação em desenvolvimento Full Stack. O projeto reúne minhas principais habilidades, tecnologias e projetos desenvolvidos ao longo do curso.
+
+O objetivo é apresentar minha evolução como desenvolvedor e demonstrar conhecimentos em React, componentização, responsividade e boas práticas de desenvolvimento front-end.
 
 ---
 
-## 🧰 Tecnologias utilizadas
+## 🌐 Demonstração
 
-- React
-- JavaScript (ES6+)
-- Vite
-- HTML5
-- CSS3
-- Git e GitHub
+👉 Acesse o portfólio online:
+[https://portfolio-nine-kappa-f65ip9gk21.vercel.app](https://portfolio-nine-kappa-f65ip9gk21.vercel.app)
+
+👉 Repositório GitHub:
+[https://github.com/KaykyRibeir/portfolio](https://github.com/KaykyRibeir/portfolio)
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* React
+* JavaScript (ES6+)
+* CSS Modules
+* HTML5
+* Vite
+* Git & GitHub
 
 ---
 
 ## 📁 Estrutura do projeto
 
-
+```
 src/
-├── components/
-│ ├── Header/
-│ ├── About/
-│ ├── Home/
-│ ├── Projects/
-│ ├── Skills/
-│ └── Contact/
-├── App.jsx
-└── main.jsx
-
+ ├── assets/         # Imagens do projeto
+ ├── components/
+ │    ├── Home
+ │    ├── About
+ │    ├── Projects
+ │    ├── Skills
+ │    └── Contact
+ ├── App.jsx
+ ├── App.module.css
+ └── index.css
+```
 
 ---
 
 ## 📌 Funcionalidades
 
-- Página inicial com apresentação pessoal
-- Seção “Sobre mim”
-- Lista de projetos desenvolvidos durante o curso
-- Lista de habilidades técnicas
-- Seção de contato com links reais (GitHub, Email e WhatsApp)
-- Navegação por âncoras (scroll suave)
-- Layout responsivo básico
-- Interface com tema escuro consistente
+* Página inicial com apresentação profissional
+* Seção “Sobre Mim” com foto e descrição
+* Lista dinâmica de projetos utilizando `map()`
+* Seção de habilidades técnicas
+* Links para contato (GitHub, Email e WhatsApp)
+* Layout responsivo para mobile e desktop
+* Estilização modular com CSS Modules
 
 ---
 
-## 📂 Projetos incluídos
+## 📱 Responsividade
 
-### 🧩 Micro-frontends
-Arquitetura de frontend modular baseada em micro-frontends, com foco em escalabilidade e separação de aplicações.
-
-### 🧾 Diário de Bordo PWA
-Aplicação web progressiva (PWA) para registro de atividades com suporte offline e armazenamento local no navegador.
-
-### 🔄 Todo Recoil EBAC
-Sistema de tarefas com gerenciamento de estado global utilizando Recoil e boas práticas em React.
-
-### ⚙️ CI/CD com Next.js
-Projeto focado em automação de deploy e integração contínua utilizando Next.js e GitHub Actions.
-
-### 📋 Lista de Tarefas EBAC
-Aplicação de lista de tarefas desenvolvida para prática de React, componentização e manipulação de estado.
-
-### 💼 Portfólio Pessoal
-Site desenvolvido para apresentação de projetos e habilidades utilizando React e Vite.
-
-### 📰 Blog Next.js EBAC
-Blog com foco em SEO, performance e renderização otimizada utilizando Next.js.
-
-### ✈️ Portal de Viagens EBAC
-Portal responsivo de viagens com foco em experiência do usuário e organização de conteúdo.
+O projeto foi desenvolvido com foco em responsividade, adaptando-se a diferentes tamanhos de tela (desktop, tablet e mobile).
 
 ---
 
-## 📬 Contato
+## ⚙️ Como rodar o projeto localmente
 
-- GitHub: https://github.com/KaykyRibeir  
-- Email: kaykycmr410@gmail.com  
-- WhatsApp: https://wa.me/553599579595  
-
----
-
-## 🚀 Como rodar o projeto localmente
+Clone o repositório:
 
 ```bash
 git clone https://github.com/KaykyRibeir/portfolio.git
+```
 
+Acesse a pasta:
+
+```bash
 cd portfolio
+```
 
+Instale as dependências:
+
+```bash
 npm install
+```
 
+Execute o projeto:
+
+```bash
 npm run dev
-📌 Observações
+```
 
-Este projeto foi desenvolvido com foco em aprendizado prático de React, componentização, organização de código e deploy de aplicações web.
+---
 
-👨‍💻 Autor
+## 🎯 Aprendizados
 
-Desenvolvido por Kayky de Castro Manso Ribeiro
+Durante o desenvolvimento deste portfólio, pratiquei:
+
+* Componentização em React
+* Uso de CSS Modules para estilos isolados
+* Organização de estrutura de projeto
+* Renderização dinâmica com `map()`
+* Boas práticas de responsividade
+* Deploy com Vercel
+
+---
+
+## 🚀 Deploy
+
+O projeto foi publicado utilizando a plataforma Vercel, garantindo deploy contínuo integrado ao GitHub.
